@@ -1,0 +1,10 @@
+const referenceSites=[
+{name:'MetKids · 大都会艺术博物馆',country:'美国',url:'https://www.metmuseum.org/metkids',desc:'用探索、想象、创作进入馆藏，包含作品、儿童提问和视频。原项目面向 7—12 岁，五岁需要家长筛选并降低难度。',use:'此前参考：从观察作品走向想象和动手。',evidence:'https://www.metmuseum.org/press-releases/metkids-launch-2015-news'},
+{name:'National Gallery of Art · Art Tales',country:'美国',url:'https://www.nga.gov/educational-resources',desc:'美国国家美术馆的教育资源；Art Tales 专门提供学前儿童的作品欣赏、相关绘本和创作活动。',use:'此前参考，本次进一步查看 Art Tales：让孩子的兴趣决定节奏，一次聚焦一幅。'},
+{name:'MoMA · Kids Audio',country:'美国',url:'https://www.moma.org/audio/playlist/289',desc:'纽约现代艺术博物馆的儿童音频导览，包括《星月夜》等作品。主要为英语，家长可以先听再转述。',use:'本次新增：短问题、听与看配合。本站不转载其录音。'},
+{name:'NGV Kids · 维多利亚州国立美术馆',country:'澳大利亚',url:'https://www.ngv.vic.gov.au/kids/',desc:'提供家庭活动、可下载活动单、游戏和视频，并有面向低龄儿童的内容。参观建议强调短时、孩子带路和开放提问。',use:'本次新增：参考 Expressive Emotions 活动单，让感受有更多词语，并连接到离线创作。',evidence:'https://www.ngv.vic.gov.au/wp-content/uploads/2025/05/KIDS_U5_Expressive_Emotions-1.pdf'},
+{name:'QAGOMA · Kids & Families',country:'澳大利亚',url:'https://www.qagoma.qld.gov.au/kids-and-families/',desc:'昆士兰美术馆与现代艺术馆的儿童家庭入口；含儿童艺术中心、创作活动与六岁以下项目。部分内容是到馆活动，不是线上游戏。',use:'本次新增：用画画、动作与情绪表达回应作品，保留亲子共同参与。'},
+{name:'Les petits M’O · 奥赛与橘园美术馆',country:'法国',url:'https://www.petitsmo.fr/',desc:'把画家、作品、参观路线、时间轴及播客视频分别组织，适合家长带着孩子有选择地探索。主要为法语，具体活动另有年龄要求。',use:'本次新增：借鉴画家与作品双入口；本站将画家按流派组织。'},
+{name:'Petit Louvre · 小卢浮宫',country:'法国',url:'https://petitlouvre.louvre.fr/',desc:'提供故事、动画、播客、寻宝、工作坊和涂色。当前家庭页主要写 7—12 岁，五岁适合由家长挑故事和简单活动。',use:'本次新增：把作品连到故事与离线创作，不把艺术史文字整段交给孩子。',evidence:'https://www.louvre.fr/visiter/venir-en-famille'}
+];
+function referenceHTML(){return '<h3>参考网站清单 · 国家与借鉴方法</h3><p>以下为已查阅的官方教育页面。适用程度是本站的设计判断，不是对所有孩子的统一年龄结论。外语网站建议家长先筛选。</p><ul class="reference-list">'+referenceSites.map(r=>`<li><b><a href="${r.url}" target="_blank" rel="noopener">${r.name} ↗</a> · ${r.country}</b>${r.desc}<small>${r.use}${r.evidence?` <a href="${r.evidence}" target="_blank" rel="noopener">查看依据</a>`:''}</small></li>`).join('')+'</ul><p><b>Tate Kids（英国）</b>：此前也尝试查阅 <a href="https://www.tate.org.uk/kids" target="_blank" rel="noopener">官方入口</a>，但本次研究工具收到 403 访问限制，未完成页面核验，故不列为已深入学习的依据。</p>'}

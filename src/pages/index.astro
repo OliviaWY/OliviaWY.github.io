@@ -1,17 +1,11 @@
----
-const title: string = 'Space of Domi';
----
-<!doctype html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title}</title>
-  </head>
-  <body>
-    <main>
-      <h1>{title}</h1>
-      <p>网站建设中。</p>
-    </main>
-  </body>
-</html>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f3e9"><title>多米的小小艺术花园 · 和名画一起长大</title><meta name="description" content="为五岁孩子设计的亲子艺术花园。按风格或画家探索三十四幅博物馆名作与多米的原创作品，通过八个赏析角度观察、想象和创作，配有可选轻音乐。"><link rel="stylesheet" href="style.css"></head><body>
+<header><a class="brand" href="#"><span class="brand-icon">✳</span><span>多米的小小艺术花园<small>LITTLE ART GARDEN</small></span></a><nav><a href="#gallery">逛逛画廊</a><a href="#activity">动手玩艺术</a><button id="parents">给大人的小纸条 ↗</button></nav></header>
+<main><section class="hero"><div class="hero-copy"><div class="eyebrow"><span></span> 给 5 岁的你，和好奇心满满的大人</div><h1>小眼睛，<br>看见<span>大大的美。</span><i>✧</i></h1><p>走进画家的世界，听一段音乐，<br>发现颜色里的故事。每一个想法，都很珍贵。</p><a class="primary" href="#gallery">开始今天的艺术小旅行 <span>↗</span></a><div class="hero-note"><span>◷ 一次一幅，慢慢看</span><span>♡ 大人小孩一起玩</span></div></div><div class="hero-art"><div class="sun">✺</div><div class="artframe"><img src="assets/436535.jpg" alt="梵高的麦田与柏树：蓝天中卷曲的白云、金色麦田和深绿色柏树"><span class="frame-label">文森特·梵高 · 麦田与柏树 · 1889</span></div><div class="art-sticker">云朵在跳舞吗？<span>跟着小眼睛去发现 ↗</span></div><div class="scribble">～</div></div></section>
+<div class="ribbon"><span>不必背下画家的名字</span><b>✳</b><span>先说说你看见了什么</span><b>✳</b><span>美，没有唯一的答案</span><b>✳</b><span>让好奇心带路</span></div>
+<section id="gallery" class="gallery"><div class="section-top"><div><div class="eyebrow">THE LITTLE GALLERY / 小小画廊</div><h2>今天，想走进哪一种世界？</h2><p>四种绘画风格，四扇观察世界的小窗。</p></div><span class="count">34 幅作品 · 12 位艺术家</span></div><div class="browse-modes" role="group" aria-label="选择浏览方式"><button data-mode="style" class="active" aria-pressed="true">按绘画风格</button><button data-mode="artist" aria-pressed="false">按画家找作品</button></div><div id="artist-groups" hidden></div><div class="filters" role="group" aria-label="按绘画风格筛选"></div><div class="gallery-caption"><span id="style-desc">从喜欢的一幅开始，不用一次看完。</span><label class="favorite-filter"><input id="only-liked" type="checkbox"> 只看我喜欢的 ♡</label></div><div id="cards" class="cards"></div><div class="more-row"><span id="result-count" aria-live="polite"></span><button id="load-more" class="outline" hidden>再看看更多作品 ↓</button></div></section>
+<section class="activity" id="activity"><div class="activity-title"><div class="eyebrow">LITTLE HANDS, BIG IDEAS</div><h2>看完了？<br>轮到你来当画家。</h2><p>离开屏幕，把刚才的发现带到纸上。</p><span class="crayon">✎</span></div><div class="activity-content"><span class="pill">今天的小创作 · 约 5 分钟</span><h3 id="activity-name">让线条去散步</h3><p id="activity-text">拿一支蜡笔，在纸上画一条弯弯的路。它经过了哪里？给这条路添上你想象的故事。</p><div class="materials">准备：纸 + 蜡笔或彩色铅笔 + 一点点想象力</div><button class="outline" id="another">换一个灵感 ↻</button></div></section>
+<section class="guide"><span>01 <b>看一看</b> 先静静看画，找一个小发现。</span><span>02 <b>说一说</b> “你在哪里看到了它？”</span><span>03 <b>玩一玩</b> 用画笔、身体或故事回应。</span></section></main>
+<footer><div class="brand"><span class="brand-icon">✳</span> 多米的小小艺术花园</div><p>陪孩子感受美，也保护每一份不同的想象。</p><button id="sources">研究依据与作品来源 ↗</button><small>V3.0 · 亲子共赏 · 无广告 · 喜欢的作品仅保存在本机浏览器</small></footer>
+<div class="musicbar"><span class="music-mark">♫</span><div><b id="music-title">花园里的轻音乐</b><small id="music-note">原创器乐小循环 · 点击开启</small></div><button id="music-toggle" aria-label="播放背景音乐">▶ 播放</button><label>音量 <input id="volume" aria-label="音乐音量" type="range" min="0" max="100" value="20"></label><span class="music-hint">安静看画，也很好</span></div>
+<dialog id="painting" aria-labelledby="title"><div class="dialog-top"><span id="modal-style"></span><button id="modal-music">♫ 播放音乐</button><button class="close" aria-label="关闭作品">✕</button></div><div class="painting-layout"><div class="painting-area"><img id="large-img" alt=""><button id="zoom" class="zoom">＋ 放大看看</button><div class="zoom-note">完整画作 · 点击放大后可滚动观察细节</div></div><div class="painting-copy"><span class="eyebrow" id="artist"></span><h2 id="title"></h2><p id="intro"></p><p class="dimension-hint">挑一个角度就好，不用把每个问题都回答完。</p><div class="steps" role="group" aria-label="选择赏析角度"></div><div class="prompt"><span id="prompt-type">小眼睛任务</span><h3 id="prompt"></h3><p id="prompt-note">可以用手指一指，也可以讲给身边的大人听。</p><button class="read" id="read">♬ 听听问题</button></div><details class="grownup-note"><summary>大人一起看 · 这个角度在看什么？</summary><p id="dimension-explanation"></p></details><div class="mood"><b>这幅画给你什么感觉？</b><p>可以选多个，也可以不选。感受没有标准答案。</p><div id="mood-options" role="group" aria-label="画作感受，可多选"></div><label class="own-feeling" for="own-feeling">或者，用你自己的话说说</label><input id="own-feeling" maxlength="100" placeholder="比如：像下雨前的空气……" autocomplete="off"><p id="mood-response" aria-live="polite">每个人的感觉都可以不同。</p></div><div class="modal-actions"><button class="outline" id="like">♡ 我喜欢这幅</button><button class="outline" id="next">下一幅 →</button></div><p class="art-credit" id="credit"></p><a id="museum" target="_blank" rel="noopener">家长查看博物馆原始资料 ↗</a></div></div></dialog>
+<dialog id="info"><div class="dialog-top"><span>给好奇的大人</span><button class="close" aria-label="关闭说明">✕</button></div><div id="info-content"></div></dialog><script is:inline src="references.js"></script><script is:inline src="content.js"></script><script is:inline src="app.js"></script></body></html>
