@@ -47,3 +47,13 @@ GitHub 显示证书正在申请，HTTPS 开关暂不可用。
 公共 DNS 查询返回四条 GitHub Pages A 记录，同时包含额外的
 192.64.119.3；GitHub 复查亦曾报告 NotServedByPagesError。
 该额外记录可能影响访问与证书签发，需在域名管理处核实；本次未改 DNS。
+
+### 域名修复（2026-11-04 17:14）
+
+用户授权后，已从 Namecheap 移除 @ 指向 http://www.spaceofdomi.com/ 的
+URL Redirect Record。四条 GitHub Pages A 记录、www CNAME、所有权验证 TXT
+和邮件相关记录均保留。两个权威 DNS 和公共 DNS 复查均已只返回 GitHub 地址；
+GitHub 页面显示 DNS check successful，HTTP 页面及 www 跳转已验证。
+
+安全证书仍由 GitHub 申请中，尚未启用 Enforce HTTPS；证书可用后再启用并
+验证安全访问。最新状态以 Settings → Pages 为准。
