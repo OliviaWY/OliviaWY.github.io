@@ -26,6 +26,9 @@ const domiWorks=[
 ];
 styles.push({id:'domi',label:'♡ 多米的画',name:'多米的小画廊',desc:'多米的小画廊 · 按文件名日期，从 2026 年 1 月到 9 月，看看自己的画怎样慢慢长大。',music:'多米的彩色时光'});
 domiWorks.forEach(w=>{w.questions=[...w.prompts,'这幅画让你想到哪一天？','哪一个细节最像你的想法？','如果重新画一次，你还想加什么？','你想给这幅画配什么声音？','把画里的故事讲给大人听。','画一幅今天的新作品。'];works.push(w);extraQuestions[w.id]=[w.prompts[0],w.prompts[1],w.prompts[2],'哪一个细节最像你的想法？','如果重新画一次，你还想加什么？']});
+Object.assign(works.find(w=>w.id===437430),{task:'画一个喜欢的家庭时刻',materials:'纸和喜欢的画笔。',text:'想一个你喜欢的家庭时刻：一起吃饭、散步或坐着聊天。画一个角色和周围的事物，不用照着名画画。'});
+styles.push(...gardenStyles);
+works.unshift(...gardenWorks);
 const dimensions=[
 {id:'detail',label:'⌕ 找细节',note:'先找一个小发现。可以说，也可以用手指给大人看。',explain:'细致观察：先让孩子描述眼前看到的东西。跟着问“你在哪里看到的？”，不用急着解释画家的意思。'},
 {id:'color',label:'● 看颜色',note:'找两种颜色比一比，不认识颜色名字也没关系。',explain:'色彩：比较相近或不同的颜色。可以用生活里的东西来命名，比如“橘子色”。暖色、冷色是可选词，不必背诵。'},
@@ -48,8 +51,10 @@ works.forEach(w=>{
   w.questions=[lesson[0],'哪一种颜色最先吸引你？','选一条喜欢的线，用手指在空中走一走。','你注意到了哪一块比较亮的地方？','看看物体或色块的位置，你发现了什么？',lesson[1],'假如这幅画有声音，你想到什么？',lesson[2]];
  }
 });
+gardenWorks.forEach(w=>{w.questions=[w.prompts[0],...extraQuestions[w.id].slice(0,4),w.prompts[1],extraQuestions[w.id][4],w.prompts[2]]});
 let lessonMode='simple';
 const artistNotes={
+'亨利·马蒂斯':'法国 · 用纸片与颜色自由创造。','胡安·米罗':'西班牙 · 让形状和线条变成自己的故事。','克劳德·莫奈':'法国 · 观察自然中光与颜色的变化。','瓦西里·康定斯基':'俄罗斯出生 · 发现几何、节奏与色彩。','保罗·克利':'瑞士出生 · 用图形表达想法。','皮特·蒙德里安':'荷兰 · 探索直线、位置与留白。','齐白石':'中国 · 从自然小生命进入水墨。','草间弥生':'日本 · 从圆点和重复探索空间。',
 '卡米耶·毕沙罗':'法国 · 一起找找树木和街道里的光。',
 '埃德加·德加':'法国 · 看看人物怎样站、怎样动，以及主角放在哪里。',
 '奥古斯特·雷诺阿':'法国 · 在人物与花园中发现柔和的色彩。',
@@ -71,7 +76,7 @@ function toggleLike(id){liked.has(id)?liked.delete(id):liked.add(id);save();rend
 
 function visibleWorks(){return works.filter(w=>(browseMode==='style'?(selected==='all'||w.s===selected):(selectedArtist==='all'||w.artist===selectedArtist))&&(!$('#only-liked').checked||liked.has(w.id)))}
 function renderArtists(){
- $('#artist-groups').innerHTML='<button class="all-artists '+(selectedArtist==='all'?'active':'')+'" data-artist="all" aria-pressed="'+(selectedArtist==='all')+'">✳ 全部画家</button>'+[{label:'☀ 印象派',names:['卡米耶·毕沙罗','埃德加·德加','奥古斯特·雷诺阿']},{label:'〰 后印象派',names:['文森特·梵高','保罗·塞尚']},{label:'☁ 法国写实主义',names:['古斯塔夫·库尔贝']},{label:'☁ 美国写实传统',names:['温斯洛·霍默']},{label:'≋ 浮世绘',names:['葛饰北斋']},{label:'▦ 现代艺术',names:['乔治·修拉','阿尔玛·托马斯']},{label:'✦ 当代艺术',names:['村上隆']},{label:'♡ 多米的画',names:['多米']}].map(s=>{
+ $('#artist-groups').innerHTML='<button class="all-artists '+(selectedArtist==='all'?'active':'')+'" data-artist="all" aria-pressed="'+(selectedArtist==='all')+'">✳ 全部画家</button>'+[{label:'☀ 印象派',names:['克劳德·莫奈','卡米耶·毕沙罗','埃德加·德加','奥古斯特·雷诺阿']},{label:'〰 后印象派',names:['文森特·梵高','保罗·塞尚']},{label:'☁ 法国写实主义',names:['古斯塔夫·库尔贝']},{label:'☁ 美国写实传统',names:['温斯洛·霍默']},{label:'≋ 浮世绘',names:['葛饰北斋']},{label:'▦ 现代艺术',names:['亨利·马蒂斯','胡安·米罗','瓦西里·康定斯基','保罗·克利','皮特·蒙德里安','乔治·修拉','阿尔玛·托马斯']},{label:'✦ 当代艺术',names:['草间弥生','村上隆']},{label:'墨 中国水墨',names:['齐白石']},{label:'♡ 多米的画',names:['多米']}].map(s=>{
   let names=s.names;
   return `<section class="artist-group"><h3>${s.label}</h3><div>${names.map(name=>{let artistWorks=works.filter(w=>w.artist===name);return `<button class="artist-chip ${selectedArtist===name?'active':''}" aria-pressed="${selectedArtist===name}" data-artist="${name}"><img src="${artistWorks[0].image||`assets/${artistWorks[0].id}.jpg`}" alt="" loading="lazy"><span><b>${name}</b><small>${artistWorks.length} 幅作品</small></span></button>`}).join('')}</div></section>`
  }).join('');
@@ -90,7 +95,7 @@ $('.filters').onclick=e=>{let b=e.target.closest('[data-filter]');if(b){selected
 $('#artist-groups').onclick=e=>{let b=e.target.closest('[data-artist]');if(b){selectedArtist=b.dataset.artist;visibleLimit=12;render();if(selectedArtist!=='all')setTheme(works.find(w=>w.artist===selectedArtist).s)}};
 $('#only-liked').onchange=()=>{visibleLimit=12;render()};$('#load-more').onclick=()=>{visibleLimit+=12;render()};
 $('#cards').onclick=e=>{let b=e.target.closest('[data-open]'),h=e.target.closest('[data-like]');if(b)openPainting(Number(b.dataset.open));if(h)toggleLike(Number(h.dataset.like));if(e.target.closest('#clear-filters')){selected='all';selectedArtist='all';$('#only-liked').checked=false;visibleLimit=12;render()}};
-function openPainting(id){stopSpeech();current=works.find(w=>w.id===id);step=0;lessonMode='simple';$('#modal-style').textContent=styles.find(s=>s.id===current.s).label+' / '+styles.find(s=>s.id===current.s).name;$('#large-img').src=current.image||`assets/${id}.jpg`;$('#large-img').alt=current.alt;$('#title').textContent=current.title;$('#artist').textContent=current.artist+' / '+current.date;$('#intro').textContent=current.intro;$('#credit').textContent=current.artist==='多米'?`多米的原创作品，《${current.title}》，创作日期 ${current.date}。图片由家长提供，日期来自图片文件名。`:`${current.artist}，《${current.title}》，${current.date}。博物馆馆藏资料与图像来源见作品详情。`;$('#museum').href=current.artist==='多米'?'#':`https://www.metmuseum.org/art/collection/search/${id}`;$('#museum').textContent=current.artist==='多米'?'多米的作品 · 日期来自文件名':'家长查看博物馆原始资料 ↗';$('#like').textContent=liked.has(id)?'♥ 已收藏喜欢':'♡ 我喜欢这幅';$('.painting-area').classList.remove('zoomed');$('#zoom').textContent='＋ 放大看看';$('.painting-copy').scrollTop=0;$('#mood-options').innerHTML=moodLabels.map(m=>`<button aria-pressed="false">${m}</button>`).join('');$('#own-feeling').value='';$('#mood-response').textContent='每个人的感觉都可以不同。';setPrompt();setTheme(current.s);setActivity(current);if(!$('#painting').open)$('#painting').showModal()}
+function openPainting(id){stopSpeech();current=works.find(w=>w.id===id);step=0;lessonMode='simple';$('#modal-style').textContent=styles.find(s=>s.id===current.s).label+' / '+styles.find(s=>s.id===current.s).name;$('#large-img').src=current.image||`assets/${id}.jpg`;$('#large-img').alt=current.alt;$('#title').textContent=current.title;$('#artist').textContent=current.artist+' / '+current.date;$('#intro').textContent=current.intro;$('#credit').textContent=current.artist==='多米'?`多米的原创作品，《${current.title}》，创作日期 ${current.date}。图片由家长提供，日期来自图片文件名。`:`${current.artist}，《${current.title}》，${current.date}。博物馆馆藏资料与图像来源见作品详情。`;$('#museum').href=current.artist==='多米'?'#':`https://www.metmuseum.org/art/collection/search/${id}`;$('#museum').textContent=current.artist==='多米'?'多米的作品 · 日期来自文件名':'家长查看博物馆原始资料 ↗';$('#like').textContent=liked.has(id)?'♥ 已收藏喜欢':'♡ 我喜欢这幅';$('.painting-area').classList.remove('zoomed');$('#zoom').textContent='＋ 放大看看';$('.painting-copy').scrollTop=0;$('#mood-options').innerHTML=moodLabels.map(m=>`<button aria-pressed="false">${m}</button>`).join('');$('#own-feeling').value='';$('#mood-response').textContent='每个人的感觉都可以不同。';if(current.museum)$('#museum').href=current.museum;if(current.credit)$('#credit').textContent=current.artist+'，《'+current.title+'》，'+current.date+'。'+current.credit;setPrompt();setTheme(current.s==='ink'?'ink':current.s);setActivity(current);if(!$('#painting').open)$('#painting').showModal()}
 function setPrompt(){
  stopSpeech();const simple=lessonMode==='simple',items=simple?littleSteps:dimensions,d=items[step];
  $('.lesson-modes').querySelectorAll('button').forEach(b=>{const active=b.dataset.lessonMode===lessonMode;b.setAttribute('aria-pressed',String(active));b.classList.toggle('active',active)});
@@ -100,7 +105,7 @@ function setPrompt(){
  $('#prompt-note').textContent=d.note;$('#dimension-explanation').textContent=d.explain;
  $('#question-rationale').textContent=d.explain;
  $('#question-sources').innerHTML=educationLinks(simple?d.sources:dimensionSources[step]);
- $('.grownup-note').open=false;$('.question-source').open=false;
+ const showWorkshop=(simple&&step===2)||(!simple&&step===7);$('#workshop').hidden=!showWorkshop;$('#workshop-title').textContent=current.task;$('#workshop-materials').textContent='准备：'+(current.materials||'纸、蜡笔或喜欢的画笔；也可以用动作回应。');$('#workshop-text').textContent=current.text;$('.grownup-note').open=false;$('.question-source').open=false;
 }
 $('.lesson-modes').onclick=e=>{const b=e.target.closest('[data-lesson-mode]');if(b){lessonMode=b.dataset.lessonMode;step=0;setPrompt()}};
 $('#large-img').onerror=()=>{$('#image-status').hidden=false;$('.lesson-content').hidden=true;stopSpeech()};
@@ -111,10 +116,10 @@ $('#mood-options').onclick=e=>{let b=e.target.closest('button');if(b){let active
 let speechActive=false;function stopSpeech(){if('speechSynthesis'in window)window.speechSynthesis.cancel();speechActive=false;$('#read').textContent='♬ 听听问题';if(master)master.gain.value=Number($('#volume').value)/100*.16}
 $('#read').onclick=()=>{if(!('speechSynthesis'in window)){$('#prompt-note').textContent='这个浏览器暂不支持朗读，请身边的大人读给你听。';return}if(speechActive){stopSpeech();return}let u=new SpeechSynthesisUtterance($('#prompt').textContent);u.lang='zh-CN';u.rate=.83;speechActive=true;$('#read').textContent='■ 停止朗读';if(master)master.gain.value=0;u.onend=stopSpeech;u.onerror=()=>{stopSpeech();$('#prompt-note').textContent='朗读暂时不可用，请大人帮忙读一读。'};window.speechSynthesis.speak(u)};
 document.querySelectorAll('.close').forEach(b=>b.onclick=()=>b.closest('dialog').close());$('#painting').addEventListener('close',stopSpeech);document.querySelectorAll('dialog').forEach(d=>d.addEventListener('click',e=>{if(e.target===d){let r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}}));
-let activityIndex=1;function setActivity(w){$('#activity-name').textContent=w.task;$('#activity-text').textContent=w.text}$('#another').onclick=()=>{activityIndex=(activityIndex+1)%works.length;setActivity(works[activityIndex])};
+let activityIndex=1;function setActivity(w){$('#activity-name').textContent=w.task;$('#activity-text').textContent=w.text;$('.activity .materials').textContent='准备：'+(w.materials||'纸 + 蜡笔或彩色铅笔 + 一点点想象力')}$('#another').onclick=()=>{activityIndex=(activityIndex+1)%works.length;setActivity(works[activityIndex])};
 const research=educationGuideHTML();
 function showInfo(){stopSpeech();$('#info-content').innerHTML=research;$('#info').showModal()}$('#parents').onclick=showInfo;$('#sources').onclick=showInfo;$('#question-guide').onclick=showInfo;
-let ctx,master,timer,playing=false,noteIndex=0,theme='impression';const music={impression:{notes:[60,64,67,72,69,67,64,62,60,64,67,69,72,67,64,62],beat:.63,type:'sine'},post:{notes:[60,62,64,67,69,67,64,62,64,67,72,69,67,64,62,60],beat:.78,type:'triangle'},real:{notes:[48,55,60,64,60,55,52,55,48,55,62,64,62,55,52,48],beat:1.25,type:'sine'},ukiyo:{notes:[62,65,67,69,72,69,67,65,62,67,69,74,72,69,65,62],beat:.9,type:'sine'},modern:{notes:[60,64,67,72,67,64,60,62,65,69,72,69,65,62,60,64],beat:.72,type:'triangle'},contemporary:{notes:[60,67,64,72,69,76,72,67,64,60,67,72,69,64,60,55],beat:.55,type:'sine'},domi:{notes:[60,64,67,69,72,69,67,64,60,62,65,69,72,69,65,62],beat:.82,type:'triangle'}};
+let ctx,master,timer,playing=false,noteIndex=0,theme='impression';const music={ink:{notes:[48,55,60,64,60,55,52,55],beat:1.25,type:'sine'},impression:{notes:[60,64,67,72,69,67,64,62,60,64,67,69,72,67,64,62],beat:.63,type:'sine'},post:{notes:[60,62,64,67,69,67,64,62,64,67,72,69,67,64,62,60],beat:.78,type:'triangle'},real:{notes:[48,55,60,64,60,55,52,55,48,55,62,64,62,55,52,48],beat:1.25,type:'sine'},ukiyo:{notes:[62,65,67,69,72,69,67,65,62,67,69,74,72,69,65,62],beat:.9,type:'sine'},modern:{notes:[60,64,67,72,67,64,60,62,65,69,72,69,65,62,60,64],beat:.72,type:'triangle'},contemporary:{notes:[60,67,64,72,69,76,72,67,64,60,67,72,69,64,60,55],beat:.55,type:'sine'},domi:{notes:[60,64,67,69,72,69,67,64,60,62,65,69,72,69,65,62],beat:.82,type:'triangle'}};
 function setTheme(s){theme=s;noteIndex=0;$('#music-title').textContent=styles.find(x=>x.id===s).music;$('#music-note').textContent='原创器乐小循环 · '+(playing?'正在轻轻播放':'点击开启');if(playing){clearTimeout(timer);tick()}}
 function tone(midi,time,duration,amp,type){let o=ctx.createOscillator(),g=ctx.createGain();o.type=type;o.frequency.value=440*Math.pow(2,(midi-69)/12);g.gain.setValueAtTime(0,time);g.gain.linearRampToValueAtTime(amp,time+.045);g.gain.exponentialRampToValueAtTime(.0001,time+duration);o.connect(g);g.connect(master);o.start(time);o.stop(time+duration+.05)}
 function tick(){if(!playing)return;const m=music[theme],n=m.notes[noteIndex%m.notes.length],t=ctx.currentTime+.03;tone(n,t,m.beat*2,.46,m.type);if(noteIndex%4===0){tone(n-12,t,m.beat*3,.2,'sine');tone(n-5,t+.12,m.beat*3,.08,'sine')}noteIndex++;timer=setTimeout(tick,m.beat*1000)}
@@ -122,3 +127,5 @@ async function startMusic(){try{if(!ctx){ctx=new(window.AudioContext||window.web
 function pauseMusic(){playing=false;$('#modal-music').textContent='♫ 播放音乐';clearTimeout(timer);if(ctx)ctx.suspend();$('#music-toggle').textContent='▶ 播放';$('#music-toggle').setAttribute('aria-label','播放背景音乐');$('#music-note').textContent='原创器乐小循环 · 已暂停'}$('#music-toggle').onclick=()=>playing?pauseMusic():startMusic();$('#volume').oninput=()=>{if(master&&!speechActive)master.gain.setTargetAtTime(Number($('#volume').value)/100*.16,ctx.currentTime,.1)};document.addEventListener('visibilitychange',()=>{if(document.hidden){pauseMusic();stopSpeech()}});render();setActivity(works[1]);
 
 $('#modal-music').onclick=()=>playing?pauseMusic():startMusic();
+
+const requestedWork=Number(new URLSearchParams(location.search).get('work'));if(requestedWork&&works.some(w=>w.id===requestedWork))openPainting(requestedWork);

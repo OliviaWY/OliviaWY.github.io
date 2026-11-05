@@ -13,3 +13,5 @@
 .reference-list p{font-size:13px}
 
 .family-entry{max-width:1240px;margin:60px auto;padding:36px 40px;background:#e9ecde;border-radius:20px;display:flex;align-items:center;justify-content:space-between;gap:28px}.family-entry h2{font-size:30px;margin:14px 0}.family-entry p{line-height:1.9}.family-entry small{color:#62705d}.family-entry .primary{white-space:nowrap}@media(max-width:760px){.family-entry{margin:32px 20px;padding:24px;display:block}.family-entry h2{font-size:26px}.family-entry .primary{margin-top:20px}.family-entry br{display:none}}
+
+.workshop{margin:20px 0;padding:20px;background:#edf0df;border:1px solid #d6ddc4;border-radius:14px}.workshop h3{font-size:22px;line-height:1.5;margin:12px 0}.workshop p{line-height:1.9}.workshop small{display:block;color:#59664f;font-size:12px}.workshop[hidden]{display:none}
