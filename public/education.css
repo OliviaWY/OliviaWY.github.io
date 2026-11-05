@@ -11,3 +11,5 @@
 .age-table th{min-width:70px}.age-table tr:nth-child(3){background:#edf0e2}
 .image-status{padding:20px;border:1px solid var(--line);border-radius:12px;background:#f0f1e7;line-height:1.8}
 .reference-list p{font-size:13px}
+
+.family-entry{max-width:1240px;margin:60px auto;padding:36px 40px;background:#e9ecde;border-radius:20px;display:flex;align-items:center;justify-content:space-between;gap:28px}.family-entry h2{font-size:30px;margin:14px 0}.family-entry p{line-height:1.9}.family-entry small{color:#62705d}.family-entry .primary{white-space:nowrap}@media(max-width:760px){.family-entry{margin:32px 20px;padding:24px;display:block}.family-entry h2{font-size:26px}.family-entry .primary{margin-top:20px}.family-entry br{display:none}}

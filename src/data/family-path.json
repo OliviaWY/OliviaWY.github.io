@@ -1,0 +1,35 @@
+{
+  "version":"4.1",
+  "reviewed":"2026-11-05",
+  "sharedAnswer":"https://chatgpt.com/s/t_6aebf29acbc48191a11ce8610cb470ab",
+  "abilities":[["色彩感知","看看颜色怎样相邻、重叠和变化。"],["观察能力","发现自然、光线和容易忽略的小细节。"],["想象能力","让线条、形状和故事有不同可能。"],["情绪表达","用自己的方式表达感受，不给颜色规定心情。"],["审美判断","可以喜欢、不喜欢，也可以慢慢改变想法。"]],
+  "artists":[
+    {"id":"matisse","name":"亨利·马蒂斯","theme":"色彩与自由创造","symbol":"✂","work":"《蜗牛》 · 1953","url":"https://www.moma.org/audio/playlist/7/328","source":"MoMA 儿童导览；作品为泰特馆藏","about":"从彩色纸片和形状的组合进入欣赏。具体不具体、像不像，都不是开始创作的门槛。","questions":["哪些颜色放在一起，最吸引你？","这些纸片的排列让你想到什么？","如果移动一块纸片，你想试什么新摆法？"],"activity":"用彩纸撕出或剪出自由的形状，拼一种自己的动物。可以由大人协助剪纸，孩子决定摆在哪里。","material":"彩纸、纸、胶棒；也可以只摆不粘。"},
+    {"id":"miro","name":"胡安·米罗","theme":"想象与符号表达","symbol":"✧","work":"《哈勒昆的狂欢》 · 1924—1925","url":"https://buffaloakg.org/art/exhibitions/exhibition-contemporary-art","source":"Buffalo AKG 馆方记录","about":"从线条、形状和奇妙形象展开联想。同一处图形可以引出不同故事，不需要猜出标准解释。","questions":["哪一个形状最先吸引你？","它让你想到什么样的角色？","如果你来创造一个新朋友，它可能有什么本领？"],"activity":"一起画三条随意的线，让孩子自由添成神奇生物，再给它取一个自己的名字。","material":"纸、蜡笔或彩色铅笔。"},
+    {"id":"monet","name":"克劳德·莫奈","theme":"自然与光的变化","symbol":"≋","work":"《睡莲池》 · 1899（睡莲与水园主题的一例）","url":"https://www.nationalgallery.org.uk/paintings/claude-monet-the-water-lily-pond","source":"伦敦国家美术馆馆藏页面","about":"把看画连接到身边的树、水和天空。同一个地方可以在不同时间呈现不同颜色。","questions":["水里的颜色让你发现了什么？","画里的光让你想到一天中的什么时候？","假如下雨，你想给池塘换什么颜色？"],"activity":"选家附近的一棵树或一片天空，在不同时间再看一看。愿意时用自己的颜色留下两个版本。","material":"纸和彩笔，或只是和大人一起观察。"},
+    {"id":"vangogh","name":"文森特·梵高","theme":"情绪、线条与笔触","symbol":"〰","work":"《星月夜》 · 1889","url":"https://www.moma.org/collection/works/79802","source":"MoMA 馆藏页面","about":"从旋转的笔触和线条感受画面，不靠颜色猜作者的情绪。复杂生平可等孩子有兴趣时再谈。","questions":["天空里的线条让你注意到了什么？","如果这幅画有声音，你想到什么？","你想用怎样的线条表达今天的心情？"],"activity":"从开心、难过、温柔、生气里任选一种感受，画一种自己的风。还想继续时，再试另一种；线条没有固定答案。","material":"纸、蜡笔；也可先用手势表现风。","gallery":"/#gallery"},
+    {"id":"kandinsky","name":"瓦西里·康定斯基","theme":"几何、节奏与音乐联想","symbol":"◉","work":"《几个圆》 · 1926","url":"https://www.guggenheim.org/artwork/1992","source":"古根海姆博物馆馆藏页面","about":"看看圆形的大小、色彩和相互关系。声音可以帮助联想，也可以先安静地看。","questions":["这些圆圈有哪些不同？","哪个圆圈最吸引你？","如果这幅画是一段音乐，你想象它怎样变化？"],"activity":"由大人选两小段舒适音量的器乐，让孩子自由用圆、线和色块回应。也可以选择不放音乐。","material":"纸和彩笔，或大小不同的圆纸片。"},
+    {"id":"klee","name":"保罗·克利","theme":"图形、故事与诗意想象","symbol":"◇","work":"《猫与鸟》 · 1928","url":"https://www.moma.org/collection/works/79456","source":"MoMA 馆藏页面","about":"观察简洁线条和形象之间的关系，再尝试把自己的想法变成可见的图画。","questions":["猫和鸟的关系让你发现了什么？","你觉得这只猫可能在想什么？","如果把脑袋里的一个想法画出来，你会画什么？"],"activity":"画“我今天脑袋里装着什么”。玩具、朋友、天气、食物或完全不存在的东西都可以。","material":"纸和彩笔，或纸片拼贴。"}
+  ],
+  "more":[
+    {"name":"皮特·蒙德里安","theme":"几何、秩序与平衡","activity":"用直线和红、黄、蓝色块试不同排列；也可由孩子换成别的颜色。"},
+    {"name":"奥古斯特·雷诺阿","theme":"人物、生活与关系","activity":"观察表情、衣服和位置，想象人物可能的故事；画一个自己喜欢的家庭场景。"},
+    {"name":"齐白石","theme":"自然、动物与水墨","activity":"从鱼、虾或昆虫出发，试笔墨和留白；也可以先用清水在纸上探索。"},
+    {"name":"草间弥生","theme":"重复、图案与空间","activity":"用圆点贴纸、印章或画笔组合自己的图案，试试看重复之后有什么变化。"}
+  ],
+  "weeks":[
+    {"week":1,"artist":"马蒂斯","theme":"色彩与拼贴","activity":"彩纸拼出奇妙动物","anchor":"matisse"},
+    {"week":2,"artist":"米罗","theme":"自由想象","activity":"用线条创造外星生物","anchor":"miro"},
+    {"week":3,"artist":"莫奈","theme":"自然与光","activity":"观察不同时刻的天空","anchor":"monet"},
+    {"week":4,"artist":"梵高","theme":"情绪与线条","activity":"任选一种感受画一阵风","anchor":"vangogh"},
+    {"week":5,"artist":"康定斯基","theme":"音乐与色彩","activity":"听一小段音乐，自由画画","anchor":"kandinsky"},
+    {"week":6,"artist":"克利","theme":"图形与故事","activity":"画脑袋里的一个想法","anchor":"klee"},
+    {"week":7,"artist":"齐白石","theme":"动物与水墨","activity":"用笔墨试鱼或昆虫","anchor":"more-artists"},
+    {"week":8,"artist":"雷诺阿","theme":"人物与生活","activity":"画喜欢的家庭场景","anchor":"more-artists"}
+  ],
+  "resources":[
+    {"name":"Tate Kids","country":"英国","url":"https://www.tate.org.uk/kids","description":"艺术家介绍与创作活动入口，以英语为主。此次研究工具访问受限，家长可自行打开筛选。"},
+    {"name":"MoMA 儿童观画资源","country":"美国","url":"https://www.moma.org/teaching/looking-guides","description":"官网介绍面向5岁及以上儿童的音频导览，并列出包括普通话在内的语言；具体节目以实际页面为准。另有面向5—12岁的家庭资源。"},
+    {"name":"亚洲文明博物馆 · Meet Me at ACM","country":"新加坡","url":"https://www.nhb.gov.sg/acm/acm-online/learning-resources/pre-school","evidence":"https://necrg.moe.edu.sg/ne-experiences-for-students/ne-related-lj-for-students/arts-culture-and-heritage/acm-meet-me-at-acm-activity/","description":"新加坡教育部资源目录列为5—8岁自助活动卡。博物馆入口此次触发访问验证，年龄信息以教育部目录为依据。"}
+  ]
+}

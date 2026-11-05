@@ -74,3 +74,7 @@ GitHub 页面显示 DNS check successful，HTTP 页面及 www 跳转已验证。
 - `public/education-guide.html` 提供完整家长指南与逐幅来源对应；`education-prompts-v4.json` 可下载全部问题记录。
 - 来源支持设计原则，不代表机构背书、各国统一课程或效果最优证明。
 - 旧版部分现代／当代博物馆外链图片仍有加载问题；图片无法显示时暂停看图任务。
+
+## 亲子启蒙路线 V4.1（2026-11-05）
+
+新增 `/family-path/`：六位入门画家、四位延伸画家、八周可选活动、VTS观察讨论与独立想象延伸。内容来自用户提供的分享回答，经官方作品记录核对与适龄改编；米罗作品替换及资料限制在页面说明。数据见 `src/data/family-path.json`，页面见 `src/pages/family-path.astro`。首页和家长指南均有入口。作品查看链接通向馆方资料，不表示这些图像已加入主画廊。
