@@ -1,0 +1,13 @@
+.lesson-modes{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 10px}
+.lesson-modes button{border:1px solid var(--line);border-radius:24px;padding:10px 14px;background:transparent;color:var(--ink);font:inherit;font-size:13px;cursor:pointer}
+.lesson-modes button[aria-pressed=true]{background:var(--green);color:white;border-color:var(--green)}
+.art-story{margin:14px 0;color:var(--muted);font-size:13px}
+.art-story summary,.question-source summary{cursor:pointer;line-height:1.6}
+.question-source{margin:16px 0;padding:14px;border:1px solid var(--line);border-radius:12px;background:#f0f1e7;font-size:12px;line-height:1.8}
+.question-source a{color:var(--green);overflow-wrap:anywhere}.question-source p{margin:10px 0}
+.question-source .outline{font-size:12px;margin-top:8px}.age-table-wrap{overflow-x:auto}
+.age-table{width:100%;border-collapse:collapse;font-size:13px;line-height:1.8}
+.age-table th,.age-table td{padding:12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+.age-table th{min-width:70px}.age-table tr:nth-child(3){background:#edf0e2}
+.image-status{padding:20px;border:1px solid var(--line);border-radius:12px;background:#f0f1e7;line-height:1.8}
+.reference-list p{font-size:13px}

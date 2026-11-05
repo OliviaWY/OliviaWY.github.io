@@ -1,0 +1,3488 @@
+{
+  "version": "4.0",
+  "reviewed": "2026-11-05",
+  "evidenceBoundary": "官方实践与教学资源支持设计原则；不是效果比较研究，不代表各国统一标准或机构背书。",
+  "sources": [
+    {
+      "id": "uk-dfe",
+      "country": "英国（英格兰）",
+      "name": "教育部 · Communicating through arts",
+      "age": "早期教育；含3—4岁活动举例",
+      "url": "https://help-for-early-years-providers.education.gov.uk/areas-of-learning/expressive-arts-and-design/communicating-through-arts",
+      "finding": "通过材料、动作和语言表达；作品活动建议先问看到了什么、想到了什么，并连接儿童自己的创作。",
+      "adapt": "允许指一指、做动作或用家庭语言回应；谈孩子正在创作的画时，先描述过程，不急着问“这是什么”。"
+    },
+    {
+      "id": "uk-look",
+      "country": "英国",
+      "name": "伦敦国家美术馆 · Developing ways of looking",
+      "age": "学校教师资源；并非专为5—6岁编写",
+      "url": "https://www.nationalgallery.org.uk/learning/teachers-and-schools/teaching-english-and-drama/how-to-read-a-painting?viewPage=2",
+      "finding": "沿画面观察、想象进入画中、用线和形状回应作品。",
+      "adapt": "只取一个具体观察点；不采用限时记忆、闭眼复述等负担较大的游戏。"
+    },
+    {
+      "id": "uk-dialog",
+      "country": "英国",
+      "name": "伦敦国家美术馆 · Developing responses",
+      "age": "学校教师资源；本站降低语言与推理负担",
+      "url": "https://www.nationalgallery.org.uk/learning/teachers-and-schools/teaching-english-and-drama/how-to-read-a-painting?viewPage=3",
+      "finding": "用可有多种答案的问题展开对话，从观察和简单推想到更复杂的讨论；适时补充知识。",
+      "adapt": "用“可能”“如果”区分想象与事实；成人复述发现，再邀请孩子指一处画面线索。"
+    },
+    {
+      "id": "uk-early",
+      "country": "英国",
+      "name": "国家肖像馆 · NPG Early Years",
+      "age": "官方明确3—5岁；5—6岁采用其相近低龄原则",
+      "url": "https://www.npg.org.uk/blog/blog-container/early-years-blog",
+      "finding": "以慢观察、回应儿童兴趣、材料感知与创作为核心，尊重幼儿自己的理解。",
+      "adapt": "不预设肖像人物的情绪；孩子自己的经验可以成为观看起点。该介绍是实践案例，不是效果对照研究。"
+    },
+    {
+      "id": "fr-story",
+      "country": "法国",
+      "name": "卢浮宫 · Que d’histoires !",
+      "age": "官方明确4—6岁、幼儿园中班与大班",
+      "url": "https://www.louvre.fr/venir-en-groupe/offre-de-visites-avec-mediateur/que-d-histoires",
+      "finding": "在作品面前以故事引导感受和想象，由成人陪伴。",
+      "adapt": "将故事作为可选入口，让孩子续一句、做动作；不把讲解员故事误当孩子必须猜出的答案。"
+    },
+    {
+      "id": "it-reggio",
+      "country": "意大利",
+      "name": "Reggio Children · Reggio Emilia Approach",
+      "age": "托幼与学前教育理念；不是按岁数划定的绘画训练表",
+      "url": "https://www.reggiochildren.it/en/reggio-emilia-approach/",
+      "finding": "强调儿童的多种表达语言、工作坊、关系、过程记录及家庭参与。",
+      "adapt": "允许用动作、线条、色块、纸片表达；留下孩子自己的话。本站仅借鉴这些原则，不声称实施完整瑞吉欧课程。"
+    },
+    {
+      "id": "it-strozzi",
+      "country": "意大利",
+      "name": "斯特罗齐宫 · Famiglie",
+      "age": "官方区分3—6岁与7—12岁",
+      "url": "https://www.palazzostrozzi.org/educazione/famiglie/?lang=en",
+      "finding": "亲子共同观察作品，为较小儿童结合故事，为较大儿童提供互动探索，并设置分龄工作坊。",
+      "adapt": "一起看一幅，再做一个自由的小实验；不要求照着名画画得一样。"
+    },
+    {
+      "id": "es-color",
+      "country": "西班牙",
+      "name": "提森博物馆 · Pintura con tres manchas",
+      "age": "官方明确3—6岁家庭",
+      "url": "https://www.educathyssen.org/programas-publicos/pintura-tres-manchas",
+      "finding": "先在展厅看作品，再通过参与、实验和游戏探索色彩。",
+      "adapt": "先发现一块喜欢的颜色，再用自己选的色块或纸片回应；不规定颜色对应某种心情。"
+    },
+    {
+      "id": "es-family",
+      "country": "西班牙",
+      "name": "EducaThyssen · Visitas para familias",
+      "age": "3—6岁与7岁以上分别设计活动",
+      "url": "https://www.educathyssen.org/programas-publicos/visitas-familias",
+      "finding": "用游戏、语言、倾听和生活经验共同探索作品，并要求成人陪伴。",
+      "adapt": "大人等待和倾听，不逐项考问；学前活动与较大儿童的社会主题讨论分开。"
+    }
+  ],
+  "ageGuidance": [
+    [
+      "0—2岁",
+      "在日常生活中感受实物、色彩、声音和动作；成人回应孩子的注视与手势。",
+      "不使用本站的连续看画问答。",
+      "uk-dfe"
+    ],
+    [
+      "3—4岁",
+      "先跟着兴趣看一处，可以指、摸合适的材料或做动作，再听一个短故事。",
+      "少追问理由，不要求完整句子或作品名称。",
+      "uk-early"
+    ],
+    [
+      "5—6岁 · 本站默认",
+      "看一个细节，任选一个想象问题，再用动作或材料回应。愿意时指一处线索。",
+      "一个问题就可以结束；不要求画派记忆、写答案或临摹准确。",
+      "fr-story"
+    ],
+    [
+      "7—9岁",
+      "可比较两幅作品，谈颜色、位置和不同解释，尝试自己的表现方法。",
+      "把观察、猜想与资料分开；仍允许多种回答。",
+      "uk-dialog"
+    ],
+    [
+      "10—12岁",
+      "在兴趣基础上引入创作背景、材料与时代；比较解释，并讨论图像表达的立场。",
+      "资料要有依据，不把开放欣赏变成唯一答案的测验。",
+      "uk-dialog"
+    ]
+  ],
+  "works": [
+    {
+      "id": 437307,
+      "title": "埃拉尼的白杨树",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这些树的颜色里，你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果走进这片草地，你想停在哪里？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用自己选的颜色，点出一片小树林。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这些树的颜色里，你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "树叶里只有一种绿色吗？指一指两种不同的绿。",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "白杨树的树干更像直线，还是弯线？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "树干的两边看起来一样亮吗？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "近处的树挡住了远处的什么？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果走进这片草地，你想停在哪里？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "假如风吹过这些叶子，你想用什么声音模仿？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用自己选的颜色，点出一片小树林。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 436535,
+      "title": "麦田与柏树",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "云朵的线条里，你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "假如云朵会动，它可能怎么动？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用手或画笔，试一种你想到的云的动作。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "云朵的线条里，你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "麦田和天空的颜色，哪一种让你想到暖暖的东西？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "云和柏树的线条都往同一个方向走吗？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "明亮的云旁边，哪里有更深的颜色？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "柏树站在画面的哪一边？如果移到中间会怎样？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "假如云朵会动，它可能怎么动？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "看着弯弯的麦田，你想哼一个慢慢的还是快快的声音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用手或画笔，试一种你想到的云的动作。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 45434,
+      "title": "神奈川冲浪里",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "浪花的边缘让你注意到了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "假如这朵浪花会说话，它可能说什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "画一个属于自己的大弯，看看它会变成什么。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "浪花的边缘让你注意到了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "浪花里的蓝色和白色是怎样挨在一起的？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "浪尖的边缘像圆圆的手，还是尖尖的小爪子？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "白色浪尖和深蓝海水，哪一处更显眼？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "为什么远处的山能藏在大浪下面？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "假如这朵浪花会说话，它可能说什么？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "这一刻海浪的声音可能有多大？你也可以选择不模仿。",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "画一个属于自己的大弯，看看它会变成什么。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 435882,
+      "title": "苹果与报春花盆栽",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "苹果和叶子的形状里，你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果这些苹果要搬家，你想把它们放在哪里？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "和大人摆两个水果，用喜欢的方法画一画。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "苹果和叶子的形状里，你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "苹果上的红色、黄色和绿色，各在哪里？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "花叶与苹果，谁的边缘更弯、谁更尖？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "苹果的哪一边亮，哪一边暗？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "有的苹果挡住了别的苹果吗？指一指。",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果这些苹果要搬家，你想把它们放在哪里？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "这是一个安静的桌面吗？想象旁边传来什么声音。",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "和大人摆两个水果，用喜欢的方法画一画。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 436005,
+      "title": "平静的海",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "海和天空的颜色里，你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "假如你来到这片海边，你想做什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "选几种颜色，试着画出自己的海边。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "海和天空的颜色里，你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "海水和天空用了哪些相近的颜色？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "海和天空之间的那条线，是平的还是弯的？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "天空里哪里更亮，哪里更暗？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "天空、海水和沙滩，谁占的地方最多？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "假如你来到这片海边，你想做什么？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "轻轻的浪靠近岸边，你会怎样模仿它的声音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "选几种颜色，试着画出自己的海边。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 436121,
+      "title": "坐在花瓶旁的女子",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "花束和旁边的人，哪里先吸引了你？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果给这个房间编个故事，开头是什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "把一个喜欢的东西放在纸的一边，接着自由画。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "花束和旁边的人，哪里先吸引了你？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "花束里哪种颜色最先被你看到？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "花瓣的小弯和桌子的边线，有什么不同？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "花束和背景相比，哪里显得亮？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "人坐在一边、花在中间，你的眼睛先看到了谁？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果给这个房间编个故事，开头是什么？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "如果房间很安静，你觉得会传来什么小声音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "把一个喜欢的东西放在纸的一边，接着自由画。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 437980,
+      "title": "柏树",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这棵树的外形让你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果这棵树会动，它可能怎么动？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用手或身体做一棵树，也可以把它画下来。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这棵树的外形让你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "深绿的树旁边，你还看到了什么颜色？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "树的笔触像往上长，还是向两边躺？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "树和天空相比，哪一块更暗？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "树那么高，画家给天空留下了多少地方？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果这棵树会动，它可能怎么动？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "如果树叶会唱歌，这棵树会唱长长的音还是短短的音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用手或身体做一棵树，也可以把它画下来。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 437310,
+      "title": "冬日早晨的蒙马特大道",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这条街道上，什么先吸引了你？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "选一个行人，想象他可能去哪里。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "画一条自己想走的路，沿路自由添东西。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这条街道上，什么先吸引了你？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "街道和房屋用了哪些灰灰暖暖的颜色？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "街道两边的线，在远处会靠近吗？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "在房屋旁找一找，有没有亮面和暗面？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "远处的人和近处的人，谁更小？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "选一个行人，想象他可能去哪里。",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "马车、脚步和说话声，你想先听哪一个？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "画一条自己想走的路，沿路自由添东西。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 435883,
+      "title": "苹果与梨的静物",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这些水果的外形有什么不同？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果重新摆这些水果，你会怎样摆？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用纸片或色块，拼一个自己的水果。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这些水果的外形有什么不同？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "选一颗水果，看看它有没有两种颜色。",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "梨和苹果的轮廓哪里不一样？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "水果下面有没有一小块较深的颜色？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "水果挤在一起，还是分开摆着？你想怎样重新摆？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果重新摆这些水果，你会怎样摆？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "如果水果轻轻滚过桌布，你觉得会发出什么声音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用纸片或色块，拼一个自己的水果。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 436009,
+      "title": "林间空地的小溪",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "树林和小溪里，你先看到了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "假如一片叶子落进水里，它可能去哪里？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "和大人找一片落叶，用喜欢的方法留下它的形状。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "树林和小溪里，你先看到了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "在暗暗的树林里，你能找到几种绿色或棕色？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "石头的边和水流的线条，有什么不一样？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "最亮的地方像不像一个小入口？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "树木、石头、小溪，谁挡住了谁？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "假如一片叶子落进水里，它可能去哪里？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "闭眼一小会儿，你想象溪水是滴答还是哗啦？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "和大人找一片落叶，用喜欢的方法留下它的形状。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 437430,
+      "title": "海边",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这位女士的帽子里，你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "假如这把椅子能旅行，你想带它去哪里？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "给一把想象中的椅子，画一个自己的背景。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这位女士的帽子里，你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "帽子、衣服和海水，哪里出现了相近的蓝？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "椅子的扶手和海岸的边，都弯向哪里？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "脸和帽子旁的颜色，谁更亮？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "近处的人物和远处的海，谁看起来大得多？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "假如这把椅子能旅行，你想带它去哪里？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "她背后的海风，会发出什么声音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "给一把想象中的椅子，画一个自己的背景。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 437432,
+      "title": "蒂拉·迪里厄肖像",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "人物的衣服里，什么细节吸引了你？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "你觉得她可能在想什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用喜欢的颜色，给一个想象人物设计衣服。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "人物的衣服里，什么细节吸引了你？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "红色背景和绿色布料放在一起，你先看到哪一块？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "手臂、扇子和裙褶，你能找到几种方向的线？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "浅色衣裙上，哪里亮得像有小光点？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "人物占了画面的多少？旁边还有多少空位？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "你觉得她可能在想什么？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "她像在安静等候，还是旁边正有音乐？由你想象。",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用喜欢的颜色，给一个想象人物设计衣服。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 437433,
+      "title": "卡涅的莱科莱特农庄",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "房屋和树之间，你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果来到这里，你想先看看哪里？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用纸片或色块，拼一个自己的住处。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "房屋和树之间，你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "树叶中藏着哪些暖暖的红黄颜色？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "沿着最粗的树枝，用手指在空中走一遍。",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "房子和树荫，谁看起来更亮？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "房子被树挡住了哪些地方？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果来到这里，你想先看看哪里？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "如果从树下走向农庄，你会先听见什么？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用纸片或色块，拼一个自己的住处。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 436534,
+      "title": "玫瑰",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这些玫瑰的颜色里，你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果给这束花取个新名字，你会取什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用自己选的颜色，试着留下花瓣的样子。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这些玫瑰的颜色里，你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "浅色花瓣旁边，哪一种绿色最深？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "花瓶的外边与叶子的边，哪里圆、哪里尖？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "花瓣里也有暗一点的小块吗？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "花束比花瓶宽多少？你会怎样用双手比一比？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果给这束花取个新名字，你会取什么？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "假如这是你桌边的花，你希望旁边响起什么声音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用自己选的颜色，试着留下花瓣的样子。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 436533,
+      "title": "鞋",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这双鞋的样子让你注意到了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "假如鞋子会讲故事，它可能去过哪里？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "画一双自己的想象鞋，也可以只画一条鞋带。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这双鞋的样子让你注意到了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "鞋子和地板都有棕色，它们看起来一样吗？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "鞋带的弯线和地板的直线，你更想跟着哪一种走？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "鞋口里为什么看起来比鞋面暗？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "两只鞋朝向一样吗？哪只更靠近你？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "假如鞋子会讲故事，它可能去过哪里？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "这双鞋踩过木地板，会发出什么节奏？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "画一双自己的想象鞋，也可以只画一条鞋带。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 436529,
+      "title": "阿尔勒女子：吉努夫人",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这位女士的姿势让你注意到了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果她愿意和你聊聊，你想问什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用动作或线条，试着表达一种坐着的姿势。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这位女士的姿势让你注意到了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "黄色背景让深色衣服变得更显眼了吗？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "手臂和书本的边，各朝哪个方向？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "脸和衣服，哪一块更亮？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "书放在人物前面还是后面？你怎么看出来的？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果她愿意和你聊聊，你想问什么？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "她可能在听什么？也可能只是安静地想事。",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用动作或线条，试着表达一种坐着的姿势。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 436530,
+      "title": "夹竹桃",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "叶子和花朵的形状里，你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果这盆花住进你家，你想放在哪里？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用自己选的线条，画一盆想象中的植物。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "叶子和花朵的形状里，你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "粉色花朵旁的绿色，让你想到什么？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "细长叶子是往上、往下，还是向旁边伸？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "瓶子哪一面更深？它下面有没有影子？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "花束、书和花瓶，谁最高、谁最低？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果这盆花住进你家，你想放在哪里？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "如果轻轻翻动旁边的书，会是什么声音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用自己选的线条，画一盆想象中的植物。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 436532,
+      "title": "戴草帽的自画像",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "画家脸旁的笔触让你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果给这张自画像起个新名字，你会叫什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "照照镜子，用喜欢的颜色画一小部分自己。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "画家脸旁的笔触让你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "帽子的黄色和胡子的橙色，像不像同一家人？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "脸旁的短线，跟衣服的短线方向一样吗？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "脸的两边一样亮吗？看看鼻子旁边。",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "帽子顶上与画的边缘，距离远不远？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果给这张自画像起个新名字，你会叫什么？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "如果这幅自画像会打招呼，你想象它怎样说“你好”？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "照照镜子，用喜欢的颜色画一小部分自己。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 436155,
+      "title": "舞台上的芭蕾排练",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这些舞者的动作里，什么吸引了你？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "假如下一刻她们动起来，可能会怎样？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用手势或线条，留下一个自己喜欢的动作。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这些舞者的动作里，什么吸引了你？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "浅色舞裙和暗色背景，哪一个先被你发现？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "哪条手臂像斜线，哪条像弯线？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "舞台上哪一块像被灯光照着？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "有人挡住了别人吗？看看谁更靠前。",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "假如下一刻她们动起来，可能会怎样？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "你觉得排练时会有脚步声、音乐声，还是别的声音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用手势或线条，留下一个自己喜欢的动作。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 436122,
+      "title": "版画收藏家",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这个房间里，什么小东西吸引了你？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "假如你也来收藏，你想收藏什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "把几个喜欢的小东西摆在纸上，画出自己的收藏。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这个房间里，什么小东西吸引了你？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "深色衣服周围，哪些小块颜色更浅？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "画里的画框和纸张，有多少直直的边？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "帽檐下面的脸，哪里被阴影遮住了？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "人物、桌子和后面的小画，谁在最前面？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "假如你也来收藏，你想收藏什么？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "如果他翻看纸张，会发出怎样轻轻的声音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "把几个喜欢的小东西摆在纸上，画出自己的收藏。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11123,
+      "title": "收获的景象",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "田野里，你先注意到了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "假如你来到田野里，可能会听到什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用点、线或纸片，做一片自己的田野。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "田野里，你先注意到了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "草地里的绿色和黄色，是分开的还是混在一起的？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "大树的枝干往哪里伸？像什么路线？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "树荫里和树荫外的草地，看起来一样亮吗？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "干草堆在树的哪一边？远处的东西更小吗？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "假如你来到田野里，可能会听到什么？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "如果你坐在树下，先听见风、虫子，还是别的声音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用点、线或纸片，做一片自己的田野。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11140,
+      "title": "甩鞭游戏",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "孩子们的动作里，你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果接着编这个游戏，下一步会怎样？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "坐着或站着，用手臂试一个游戏动作。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "孩子们的动作里，你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "红房子和绿草地放在一起，哪里更醒目？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "孩子的身体像直直的线，还是倾斜的线？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "草地上哪些地方亮，哪些地方像有影子？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "孩子排成一条怎样的线？校舍在他们前面还是后面？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果接着编这个游戏，下一步会怎样？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "这场游戏听起来会热闹吗？你也可以想象一个安静的版本。",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "坐着或站着，用手臂试一个游戏动作。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 55736,
+      "title": "凯风快晴（赤富士）",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这座山的颜色里，你注意到了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果给山换一种颜色，你想试哪一种？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用自己的颜色，画一座想象中的山。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这座山的颜色里，你注意到了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "红山和蓝天在一起，让你想到什么？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "云的横线与山的斜线，有什么不同？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "山顶的白色纹路和山脚的深色，谁更显眼？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "山占了画面的哪一边？天空还剩下多大一片？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果给山换一种颜色，你想试哪一种？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "这么远的山，也许很安静。你想给它配什么声音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用自己的颜色，画一座想象中的山。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 435885,
+      "title": "圣约瑟夫庄园景色",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "树、房屋和山之间，你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "假如沿着山坡走，你想先去哪里？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用几块纸片，试着拼一处自己想去的风景。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "树、房屋和山之间，你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "房子、树和山坡，哪些颜色互相挨着？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "房子的直边和树枝的曲线，你能各找一条吗？",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "山坡上有哪些较亮和较暗的色块？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "最近的树和最远的山，中间隔着什么？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "假如沿着山坡走，你想先去哪里？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "想象你走在这片风景中，会听见哪一种声音？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用几块纸片，试着拼一处自己想去的风景。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27992,
+      "title": "大碗岛的星期日下午",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "画里的小色点让你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "假如来到这个公园，你想做什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用两种自己选的颜色，试着点一小块草地。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "画里的小色点让你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "哪一种颜色最先吸引你？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "选一条喜欢的线，用手指在空中走一走。",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "你注意到了哪一块比较亮的地方？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "看看物体或色块的位置，你发现了什么？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "假如来到这个公园，你想做什么？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "假如这幅画有声音，你想到什么？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用两种自己选的颜色，试着点一小块草地。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 129884,
+      "title": "星夜与宇航员",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这些短短的色条里，什么吸引了你？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "这些颜色让你想到什么地方？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用短线或纸片，试着表达自己想到的地方。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这些短短的色条里，什么吸引了你？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "哪一种颜色最先吸引你？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "选一条喜欢的线，用手指在空中走一走。",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "你注意到了哪一块比较亮的地方？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "看看物体或色块的位置，你发现了什么？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "这些颜色让你想到什么地方？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "假如这幅画有声音，你想到什么？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用短线或纸片，试着表达自己想到的地方。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 229379,
+      "title": "Mr. Pointy（尖尖先生）",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这个形象的轮廓里，你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果它是你故事里的朋友，会有什么本领？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用纸片或线条，发明一个自己的奇妙朋友。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这个形象的轮廓里，你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "哪一种颜色最先吸引你？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "选一条喜欢的线，用手指在空中走一走。",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "你注意到了哪一块比较亮的地方？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "看看物体或色块的位置，你发现了什么？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果它是你故事里的朋友，会有什么本领？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "假如这幅画有声音，你想到什么？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用纸片或线条，发明一个自己的奇妙朋友。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24645,
+      "title": "神奈川冲浪里（再发现）",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "浪花和小山的位置让你发现了什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "假如这幅画有声音，你想到什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用自己选的线条，试着画一朵未来的浪。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "浪花和小山的位置让你发现了什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "哪一种颜色最先吸引你？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "选一条喜欢的线，用手指在空中走一走。",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "你注意到了哪一块比较亮的地方？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "看看物体或色块的位置，你发现了什么？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "假如这幅画有声音，你想到什么？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "假如这幅画有声音，你想到什么？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用自己选的线条，试着画一朵未来的浪。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20260125,
+      "title": "彩色的大桥与城市",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "你最想让我看这幅画的哪一处？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "关于这一处，你愿意讲个故事吗？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "选自己喜欢的材料，试一个今天的新想法。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "你最想让我看这幅画的哪一处？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "哪一种颜色最先吸引你？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "选一条喜欢的线，用手指在空中走一走。",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "你注意到了哪一块比较亮的地方？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "看看物体或色块的位置，你发现了什么？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "关于这一处，你愿意讲个故事吗？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "假如这幅画有声音，你想到什么？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "选自己喜欢的材料，试一个今天的新想法。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20260326,
+      "title": "彩色幻想城",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "你最想让我看这幅画的哪一处？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果继续这个故事，接下来会怎样？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用画笔或纸片，试着留下一个新的故事片段。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "你最想让我看这幅画的哪一处？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "哪一种颜色最先吸引你？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "选一条喜欢的线，用手指在空中走一走。",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "你注意到了哪一块比较亮的地方？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "看看物体或色块的位置，你发现了什么？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果继续这个故事，接下来会怎样？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "假如这幅画有声音，你想到什么？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用画笔或纸片，试着留下一个新的故事片段。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20260409,
+      "title": "动物朋友的彩色乐园",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这幅画里，你最想分享哪个细节？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "关于这个细节，你现在有什么新想法？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "选自己喜欢的材料，做一个今天想到的角色。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这幅画里，你最想分享哪个细节？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "哪一种颜色最先吸引你？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "选一条喜欢的线，用手指在空中走一走。",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "你注意到了哪一块比较亮的地方？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "看看物体或色块的位置，你发现了什么？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "关于这个细节，你现在有什么新想法？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "假如这幅画有声音，你想到什么？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "选自己喜欢的材料，做一个今天想到的角色。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20260509,
+      "title": "小动物的一天",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这些角色里，你最想让我看哪一个？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "关于它，你愿意讲个故事吗？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用画笔、动作或纸片，试着表达故事的下一刻。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这些角色里，你最想让我看哪一个？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "哪一种颜色最先吸引你？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "选一条喜欢的线，用手指在空中走一走。",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "你注意到了哪一块比较亮的地方？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "看看物体或色块的位置，你发现了什么？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "关于它，你愿意讲个故事吗？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "假如这幅画有声音，你想到什么？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用画笔、动作或纸片，试着表达故事的下一刻。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20260727,
+      "title": "森林里的动物朋友",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这幅画里，哪一处最想请我仔细看？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "如果今天再画，你想试什么新点子？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "选一小处，用喜欢的材料试一个新办法。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这幅画里，哪一处最想请我仔细看？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "哪一种颜色最先吸引你？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "选一条喜欢的线，用手指在空中走一走。",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "你注意到了哪一块比较亮的地方？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "看看物体或色块的位置，你发现了什么？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "如果今天再画，你想试什么新点子？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "假如这幅画有声音，你想到什么？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "选一小处，用喜欢的材料试一个新办法。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20260919,
+      "title": "海底生日派对",
+      "steps": [
+        {
+          "step": "⌕ 看一看",
+          "question": "这条大鱼的细节里，你最想分享什么？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 说一说",
+          "question": "关于这个海底世界，你愿意讲什么故事？",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "uk-dialog",
+            "fr-story"
+          ]
+        },
+        {
+          "step": "✎ 试一试",
+          "question": "用自己选的颜色或线条，试一个新的海底发现。",
+          "authorship": "本站结合画面编写；方法借鉴，非机构原题",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ],
+      "advanced": [
+        {
+          "step": "⌕ 找细节",
+          "question": "这条大鱼的细节里，你最想分享什么？",
+          "sourceIds": [
+            "uk-dfe",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "● 看颜色",
+          "question": "哪一种颜色最先吸引你？",
+          "sourceIds": [
+            "es-color"
+          ]
+        },
+        {
+          "step": "〰 找线条",
+          "question": "选一条喜欢的线，用手指在空中走一走。",
+          "sourceIds": [
+            "it-reggio",
+            "uk-look"
+          ]
+        },
+        {
+          "step": "◐ 看明暗",
+          "question": "你注意到了哪一块比较亮的地方？",
+          "sourceIds": [
+            "uk-look",
+            "es-family"
+          ]
+        },
+        {
+          "step": "▧ 看位置",
+          "question": "看看物体或色块的位置，你发现了什么？",
+          "sourceIds": [
+            "uk-look"
+          ]
+        },
+        {
+          "step": "✧ 编故事",
+          "question": "关于这个海底世界，你愿意讲什么故事？",
+          "sourceIds": [
+            "fr-story",
+            "uk-dialog"
+          ]
+        },
+        {
+          "step": "♫ 想声音",
+          "question": "假如这幅画有声音，你想到什么？",
+          "sourceIds": [
+            "uk-look",
+            "it-reggio"
+          ]
+        },
+        {
+          "step": "✎ 动手玩",
+          "question": "用自己选的颜色或线条，试一个新的海底发现。",
+          "sourceIds": [
+            "it-reggio",
+            "it-strozzi",
+            "es-color"
+          ]
+        }
+      ]
+    }
+  ]
+}
